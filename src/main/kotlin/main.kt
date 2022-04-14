@@ -60,9 +60,6 @@ data class Product(var name:String, var weight:Double, var price:Int, var catego
         }
     }
 }
-//Write a function that given a string returns a string composed of only
-//the characters in even indices. For example given “banana” it will return
-//“bnn”
   fun nameStringChar(person:String): String{
     var letter = person
       return letter
